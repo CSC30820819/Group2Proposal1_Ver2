@@ -88,9 +88,9 @@
                                         </connections>
                                     </button>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="sBS-3i-gov">
-                                        <rect key="frame" x="70.000000000000014" y="193.33333333333337" width="210.33333333333337" height="76.666666666666686"/>
+                                        <rect key="frame" x="50.000000000000014" y="193.33333333333337" width="250.33333333333337" height="76.666666666666686"/>
                                         <state key="normal" title="Button"/>
-                                        <buttonConfiguration key="configuration" style="filled" title="UI Design">
+                                        <buttonConfiguration key="configuration" style="filled" title="UI &amp; Design">
                                             <fontDescription key="titleFontDescription" type="system" pointSize="45"/>
                                             <color key="baseForegroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                             <color key="baseBackgroundColor" systemColor="systemIndigoColor"/>
@@ -258,8 +258,17 @@
                     <view key="view" contentMode="scaleToFill" id="aWL-V7-iFK">
                         <rect key="frame" x="0.0" y="0.0" width="402" height="802"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Timeline &amp; Roles" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="hPC-yQ-kKY">
+                                <rect key="frame" x="49" y="62" width="305" height="48"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="40"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
                         <viewLayoutGuide key="safeArea" id="WEQ-1F-cee"/>
-                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <color key="backgroundColor" red="0.42822812510313446" green="0.59715155963631283" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                     </view>
                     <navigationItem key="navigationItem" id="T3A-Av-P5H"/>
                 </viewController>

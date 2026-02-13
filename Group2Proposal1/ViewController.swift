@@ -28,7 +28,7 @@ class ViewController: UIViewController {
     }
     
     override func viewWillAppear(_ animated: Bool) {
-        projectTitle.layer.cornerRadius = 10.0
+        projectTitle.layer.cornerRadius = 5.0
         
         teamMembers.layer.cornerRadius = 10.0
         
